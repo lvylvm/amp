@@ -156,7 +156,7 @@ function addBGLayer() {
 
     bgLayer = new AMap.ImageLayer({
         bounds: new AMap.Bounds([39.637711, 5.598022], [170.793603, 62.672368]),
-        url: '/img/big-bg3.png',
+        url: 'img/big-bg3.png',
         opacity: 1,
         visible: true
     });
