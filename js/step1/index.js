@@ -156,7 +156,7 @@ function addBGLayer() {
 
     bgLayer = new AMap.ImageLayer({
         bounds: new AMap.Bounds([39.637711, 5.598022], [170.793603, 62.672368]),
-        url: '../img/big-bg3.png',
+        url: '/img/big-bg3.png',
         opacity: 1,
         visible: true
     });
@@ -167,7 +167,7 @@ function addCircleLayer() {
 
     var circleLayer = new AMap.ImageLayer({
         bounds: new AMap.Bounds([63.28813, 5.598022], [146.076575, 62.672368]),
-        url: '../img/circle0.png',
+        url: 'img/circle0.png',
         opacity: 1,
         visible: true,
         rejectMapMask: true
@@ -183,7 +183,7 @@ function addMapBorderLayer() {
     mapBorderLayer = new AMap.ImageLayer({
         //bounds: new AMap.Bounds([69.018388,12.533034], [143.884235,57.900369]),
         bounds: new AMap.Bounds([62.318388, 14.633034], [147.184235, 58.900369]),
-        url: '../img/map-bg2.png',
+        url: 'img/map-bg2.png',
         opacity: 1,
         visible: true,
         rejectMapMask: true
